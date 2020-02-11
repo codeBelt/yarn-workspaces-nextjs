@@ -5,6 +5,12 @@
   "repository": "https://github.com/codeBelt/yarn-workspaces-nextjs.git",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "yarn workspace app next dev",
+    "build": "yarn workspace app next build",
+    "start": "yarn workspace app next start",
+    "prettier": "npx prettier --write ./**/*.{md,json,js,jsx,ts,tsx}"
+  },
   "workspaces": [
     "app",
     "ui",
