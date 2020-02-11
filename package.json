@@ -1,0 +1,13 @@
+{
+  "name": "yarn-workspaces-nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/codeBelt/yarn-workspaces-nextjs.git",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "app",
+    "ui",
+    "util"
+  ]
+}
