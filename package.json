@@ -6,9 +6,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "yarn workspace app next dev",
-    "build": "yarn workspace app next build",
-    "start": "yarn workspace app next start",
+    "dev": "yarn workspace @codebelt/app next dev",
+    "build": "yarn workspace @codebelt/app next build",
+    "start": "yarn workspace @codebelt/app next start",
     "prettier": "npx prettier --write ./**/*.{md,json,js,jsx,ts,tsx}"
   },
   "workspaces": [
