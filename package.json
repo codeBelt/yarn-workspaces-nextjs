@@ -9,7 +9,9 @@
     "dev": "yarn workspace @codebelt/app next dev",
     "build": "yarn workspace @codebelt/app next build",
     "start": "yarn workspace @codebelt/app next start",
-    "prettier": "npx prettier --write ./**/*.{md,json,js,jsx,ts,tsx}"
+    "prettier": "npx prettier --write ./**/*.{md,json,js,jsx,ts,tsx}",
+    "storybook": "yarn workspace @codebelt/ui next storybook",
+    "storybook-build": "yarn workspace @codebelt/ui next storybook-build"
   },
   "workspaces": [
     "app",
