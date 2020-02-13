@@ -5,17 +5,27 @@
   "repository": "https://github.com/codeBelt/yarn-workspaces-nextjs.git",
   "license": "MIT",
   "private": true,
+  "workspaces": [
+    "app",
+    "ui",
+    "util"
+  ],
   "scripts": {
     "dev": "yarn workspace @codebelt/app next dev",
     "build": "yarn workspace @codebelt/app next build",
     "start": "yarn workspace @codebelt/app next start",
     "prettier": "npx prettier --write ./**/*.{md,json,js,jsx,ts,tsx}",
     "storybook": "yarn workspace @codebelt/ui next storybook",
-    "storybook-build": "yarn workspace @codebelt/ui next storybook-build"
+    "storybook-build": "yarn workspace @codebelt/ui next storybook-build",
+    "test": "jest"
   },
-  "workspaces": [
-    "app",
-    "ui",
-    "util"
-  ]
+  "devDependencies": {
+    "@babel/preset-env": "7.8.4",
+    "@babel/preset-react": "7.8.3",
+    "babel-jest": "25.1.0",
+    "husky": "4.2.2",
+    "jest": "25.1.0",
+    "lint-staged": "10.0.7",
+    "react-test-renderer": "16.12.0"
+  }
 }
