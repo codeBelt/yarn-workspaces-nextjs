@@ -1,3 +1,6 @@
+const {defaults} = require('jest-config');
+
+// https://jestjs.io/docs/en/configuration
 module.exports = {
     cacheDirectory: '.jest-cache',
     coverageDirectory: '.jest-coverage',
@@ -11,5 +14,6 @@ module.exports = {
             statements: 60
         }
     },
+    moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx'],
     // testPathIgnorePatterns: ['<rootDir>/packages/(?:.+?)/lib/']
 };
