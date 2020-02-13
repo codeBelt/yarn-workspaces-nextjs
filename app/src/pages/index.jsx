@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Nav from '../components/Nav';
 import { Button } from '@codebelt/ui/src/Button';
+import {pascalCaseIt} from "../utils/nameConverterUtil";
 
 const Home = () => (
   <div>
@@ -15,7 +16,7 @@ const Home = () => (
     <Button name="Press Me" />
 
     <div className="hero">
-      <h1 className="title">Welcome to Next.js!</h1>
+      <h1 className="title">{pascalCaseIt('Welcome to Next.js!')}</h1>
       <p className="description">
         To get started, edit <code>pages/index.js</code> and save to reload.
       </p>
