@@ -5,7 +5,7 @@ import {Button} from "./Button";
 jest.spyOn(window, 'alert').mockImplementation(() => {});
 
 describe('Button', () => {
-  test('Link changes the class when hovered', () => {
+  test('Snapshot and onClick', () => {
     const component = renderer.create(
         <Button name="Press Me" />,
     );

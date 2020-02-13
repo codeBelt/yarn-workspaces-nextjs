@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button Link changes the class when hovered 1`] = `
+exports[`Button Snapshot and onClick 1`] = `
 <button
   onClick={[Function]}
 >
@@ -8,23 +8,7 @@ exports[`Button Link changes the class when hovered 1`] = `
 </button>
 `;
 
-exports[`Button Link changes the class when hovered 2`] = `
-<button
-  onClick={[Function]}
->
-  press-me
-</button>
-`;
-
-exports[`Link changes the class when hovered 1`] = `
-<button
-  onClick={[Function]}
->
-  press-me
-</button>
-`;
-
-exports[`Link changes the class when hovered 2`] = `
+exports[`Button Snapshot and onClick 2`] = `
 <button
   onClick={[Function]}
 >

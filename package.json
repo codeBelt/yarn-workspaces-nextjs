@@ -17,7 +17,8 @@
     "prettier": "npx prettier --write ./**/*.{md,json,js,jsx,ts,tsx}",
     "storybook": "yarn workspace @codebelt/ui next storybook",
     "storybook-build": "yarn workspace @codebelt/ui next storybook-build",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "devDependencies": {
     "@babel/preset-env": "7.8.4",
